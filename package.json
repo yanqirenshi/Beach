@@ -1,0 +1,32 @@
+{
+    "name": "@yanqirenshi/beach",
+    "version": "0.0.1",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest",
+        "test:w": "jest --watch",
+        "test:coverage": "jest --coverage"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/yanqirenshi/Beach.git"
+    },
+    "author": "yanqirenshi@gmail.com",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/yanqirenshi/Beach/issues"
+    },
+    "homepage": "https://github.com/yanqirenshi/Beach#readme",
+    "dependencies": {
+        "dayjs": "^1.11.10"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.8.4",
+        "@babel/core": "^7.9.0",
+        "@babel/preset-env": "^7.9.0",
+        "babel-jest": "^25.2.6",
+        "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+        "jest": "^25.2.7"
+    }
+}
